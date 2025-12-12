@@ -98,11 +98,9 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 </div>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=handsomeZR-netizen&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=handsomeZR-netizen&theme=default&hide_border=true" />
-    <img src="https://streak-stats.demolab.com/?user=handsomeZR-netizen&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </picture>
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=handsomeZR-netizen&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  </a>
 </div>
 
 ---
@@ -110,7 +108,6 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 ## 🛠️ 技术栈 / Technology Stack
 
 <div align="center">
-
 
 | **领域 / Field**  | **技术 / Technologies**                                      |
 | :---------------- | :----------------------------------------------------------- |
