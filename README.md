@@ -71,7 +71,7 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 | **🔥 极速交付 (Ship Fast, Ship Often)** | 从想法到上线，我追求**极致的交付速度**。一个周末，一个完整的全栈应用。不是 Demo，是**可用的产品**。<br>_From idea to production in record time. A weekend = a fully functional app. Not a demo — a real product._ |
 | **🧠 架构主导 (Human-Led Architecture)** | AI 是我的**涡轮增压器**，但方向盘永远在我手里。系统设计、组件抽象、性能优化——这些核心决策**只能由人脑完成**。<br>_AI is my turbocharger, but I hold the steering wheel. Architecture, abstraction, optimization — these are human decisions._ |
 | **🌊 Vibe Coding & MCP** | 我不只是"用" AI，我**驾驭** AI。通过 **Cursor / Windsurf + MCP** 协议，我构建了一套上下文感知的开发环境，让 AI 真正理解我的项目。<br>_I don't just use AI — I orchestrate it. MCP-powered context-aware development for true AI-human synergy._ |
-| **🎨 像素级完美主义 (Pixel Perfectionist)** | 1px 的偏差我都能看出来。动画的缓动曲线、间距的黄金比例、色彩的和谐搭配——**细节决定品质**。<br>_I notice 1px misalignments. Easing curves, golden ratios, color harmony — details define quality._ |
+| **🚀 闪电学习者 (Lightning Learner)** | 新框架？**3 天上手，7 天精通**。我不怕技术迭代，我**追着技术跑**。从 React 到 Next.js 15，从 REST 到 tRPC，学习曲线对我来说只是**起飞跑道**。<br>_New framework? 3 days to learn, 7 days to master. I don't fear tech evolution — I chase it. Learning curves are just my runway for takeoff._ |
 
 ---
 
