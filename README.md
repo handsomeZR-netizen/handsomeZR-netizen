@@ -40,19 +40,19 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 
 💡 **Core Competencies:**
 
-* **🌐 Strong Modern Frontend Engineering Skills
+* **🌐 Strong Modern Frontend Engineering Skills**
   Proficient in React, Next.js, TypeScript, TailwindCSS, with experience building production-ready interfaces, optimizing performance, and designing maintainable frontend architectures.
 
-* **⚙️ AI-Native Development Efficiency
+* **⚙️ AI-Native Development Efficiency**
   Leverage Cursor / Windsurf + MCP to accelerate UI building, API integration, and iteration cycles — while keeping architecture and logic strictly human-led.
 
-* **🎨 UX-Driven & Aesthetic-Focused Development
+* **🎨 UX-Driven & Aesthetic-Focused Development**
   Strong sense of design and user experience; build interfaces that balance performance, clarity, and visual consistency.
 
-* **🛠️ Engineering & System Thinking
+* **🛠️ Engineering & System Thinking**
   Experienced with state management (Zustand / Redux), routing, component abstraction, code quality, and CI/CD workflows.
 
-* **📦 LLM & Multimodal Integration Skills
+* **📦 LLM & Multimodal Integration Skills**
   Skilled in integrating AI, RAG, and LLM tooling into frontend products to deliver smarter, more competitive user experiences.
 
 ---
