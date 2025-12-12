@@ -110,8 +110,8 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 
 | 项目名称 / Project                                           | 核心贡献 / Core Contribution & Tech                          |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 📝 **[智能笔记系统](https://github.com/handsomeZR-netizen/personal-markdown-online)** | **全栈笔记管理平台** ｜ [🚀 在线演示](https://xzr5.top)<br>🏗️ **Arch**: Next.js 15 + React 19 全栈架构，Prisma ORM + Neon Serverless Postgres<br>🤖 **AI**: 集成 DeepSeek，智能标签建议、内容格式化、语义搜索<br>🛠️ **Tech**: `Next.js 15` `React 19` `TypeScript` `Prisma` `TailwindCSS` `NextAuth` |
 | ✍️ **[nnu-smartwrite](https://github.com/handsomeZR-netizen/nnu-smartwrite)** | **AI 写作评估系统**<br>🏗️ **Arch**: 设计了基于 LLM 的多维度评分算法架构。<br>🛠️ **Tech**: `DeepSeek` `Prompt Engineering` `Python` |
-| 🌤️ **[QingzhiWeather](https://github.com/handsomeZR-netizen/QingzhiWeather)** | **AI 驱动天气应用**<br>🌊 **Vibe**: 结合 AI 快速生成 UI 组件，人工优化交互逻辑。<br>🛠️ **Tech**: `React` `MCP Integration` `Weather API` |
 | 🎮 **[webcam-fruit-ninja](https://github.com/handsomeZR-netizen/webcam-fruit-ninja)** | **CV 手势游戏**<br>⚡ **Speed**: 短时间内完成从数据流处理到游戏判定的逻辑闭环。<br>🛠️ **Tech**: `TensorFlow.js` `Computer Vision` |
 | 🛒 **[ecommerce-product-pages](https://github.com/handsomeZR-netizen/ecommerce-product-pages)** | **现代电商页面**<br>🎨 **UX**: 高性能状态管理与响应式设计。<br>🛠️ **Tech**: `Zustand` `Tailwind` `React` |
 
