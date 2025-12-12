@@ -23,7 +23,10 @@
   具备前端美学敏感度，习惯从交互逻辑、数据流、视觉一致性三个维度设计 UI/UX，使应用既"跑得快"，又"看得顺"。
 
 * **🛠️ 工程化与系统思维**
-  熟悉 **状态管理（Zustand / Redux）**、路由策略、组件抽象、代码规范、自动化部署（CI/CD），能在团队环境中保持高质量交付。
+  熟悉 **状态管理（Zustand / Redux）**、路由策略、组件抽象、代码规范、自动化部署（CI/CD），能在团队环境中保持高质量交付。**文档驱动开发**，通过 Steering Files + MCP 构建可复用的工作流模板，让项目规范沉淀为团队资产。
+
+* **🤝 团队协作与知识沉淀**
+  注重**代码可读性与模块复用**，习惯编写清晰的技术文档和 README。善于将个人经验转化为团队规范，推动协作效率提升。
 
 * **📦 多模态与 LLM 开发优势**
   擅长将 **AI、RAG、智能工具链** 集成进前端产品，构建具备智能交互特性的应用，提高用户体验和产品竞争力。
@@ -50,7 +53,10 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
   Strong sense of design and user experience; build interfaces that balance performance, clarity, and visual consistency.
 
 * **🛠️ Engineering & System Thinking**
-  Experienced with state management (Zustand / Redux), routing, component abstraction, code quality, and CI/CD workflows.
+  Experienced with state management (Zustand / Redux), routing, component abstraction, code quality, and CI/CD workflows. **Documentation-driven development** — building reusable workflow templates via Steering Files + MCP to turn project standards into team assets.
+
+* **🤝 Team Collaboration & Knowledge Sharing**
+  Prioritize **code readability and module reusability**. Write clear technical docs and READMEs. Transform personal experience into team standards to boost collaboration efficiency.
 
 * **📦 LLM & Multimodal Integration Skills**
   Skilled in integrating AI, RAG, and LLM tooling into frontend products to deliver smarter, more competitive user experiences.
@@ -72,6 +78,7 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 | **🧠 架构主导 (Human-Led Architecture)** | AI 是我的**涡轮增压器**，但方向盘永远在我手里。系统设计、组件抽象、性能优化——这些核心决策**只能由人脑完成**。<br>_AI is my turbocharger, but I hold the steering wheel. Architecture, abstraction, optimization — these are human decisions._ |
 | **🌊 Vibe Coding & MCP** | 我不只是"用" AI，我**驾驭** AI。通过 **Cursor / Windsurf + MCP** 协议，我构建了一套上下文感知的开发环境，让 AI 真正理解我的项目。<br>_I don't just use AI — I orchestrate it. MCP-powered context-aware development for true AI-human synergy._ |
 | **🚀 闪电学习者 (Lightning Learner)** | 新框架？**3 天上手，7 天精通**。我不怕技术迭代，我**追着技术跑**。从 React 到 Next.js 15，从 REST 到 tRPC，学习曲线对我来说只是**起飞跑道**。<br>_New framework? 3 days to learn, 7 days to master. I don't fear tech evolution — I chase it. Learning curves are just my runway for takeoff._ |
+| **📚 文档驱动 (Doc-Driven Dev)** | 好的代码会说话，好的文档让代码**可传承**。我用 Steering Files 沉淀项目规范，让每个新成员都能**快速上手**，让每个模块都能**即插即用**。<br>_Good code speaks; great docs make it inheritable. I use Steering Files to codify standards — enabling fast onboarding and plug-and-play modules._ |
 
 ---
 
