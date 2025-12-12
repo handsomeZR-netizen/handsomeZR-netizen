@@ -20,7 +20,7 @@
   善用 **Cursor / Windsurf + MCP** 搭建上下文感知开发环境，大幅提升组件设计、接口调试、页面迭代速度，但**核心架构思考始终由我主导**。
 
 * **🎨 设计感与用户体验驱动**
-  具备前端美学敏感度，习惯从交互逻辑、数据流、视觉一致性三个维度设计 UI/UX，使应用既“跑得快”，又“看得顺”。
+  具备前端美学敏感度，习惯从交互逻辑、数据流、视觉一致性三个维度设计 UI/UX，使应用既"跑得快"，又"看得顺"。
 
 * **🛠️ 工程化与系统思维**
   熟悉 **状态管理（Zustand / Redux）**、路由策略、组件抽象、代码规范、自动化部署（CI/CD），能在团队环境中保持高质量交付。
@@ -72,18 +72,15 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 ## 📊 GitHub 数据概览 / GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/handsomeZR-netizen">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800" />
+  </a>
 </div>
 
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=handsomeZR-netizen&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
 ---
 
