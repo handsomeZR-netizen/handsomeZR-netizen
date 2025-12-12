@@ -85,14 +85,24 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 ## 📊 GitHub 数据概览 / GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/handsomeZR-netizen">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=default&hide_border=true&langs_count=8" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=handsomeZR-netizen&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=handsomeZR-netizen&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=handsomeZR-netizen&theme=default&hide_border=true" />
+    <img src="https://streak-stats.demolab.com/?user=handsomeZR-netizen&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  </picture>
 </div>
 
 ---
