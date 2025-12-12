@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2A7BDE&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Ziray+Xu+%F0%9F%91%8B;AI+Undergraduate+%40+NNU;AI-Native+Developer+%E2%9A%A1;Architecting+with+LLMs+%F0%9F%A4%96" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2A7BDE&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Ziray+Xu+%F0%9F%91%8B;Frontend+Developer+%F0%9F%9A%80;AI-Native+Builder+%E2%9A%A1;Crafting+Pixel-Perfect+UIs+%F0%9F%8E%A8" alt="Typing SVG" />
 </div>
 
 
@@ -59,13 +59,19 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 
 ## ⚡ 开发哲学 & 工作流 / Philosophy & Workflow
 
-> **"AI is the engine, but I am the steering wheel."**
+<div align="center">
+  
+> ### 🎯 *"AI is the engine, but I am the steering wheel."*
+> ### *"别人用 AI 写代码，我用 AI 10x 我的产出。"*
 
-| 核心思想 / Core Philosophy              | 描述 / Description                                           |
-| :-------------------------------------- | :----------------------------------------------------------- |
-| **🧠 架构主导 (Human-Led Architecture)** | AI 提供代码片段，**我**负责系统解耦、算法设计与鲁棒性把控。我不依赖 AI 思考，我使用 AI 加速我的思考。<br>_I lead the architectural design and algorithmic logic; AI accelerates the implementation._ |
-| **🌊 Vibe Coding & MCP**                 | 熟练使用 **Cursor / Windsurf** 结合 **MCP** 协议连接本地数据与 API，实现上下文感知的极速开发体验。<br>_Seamless integration of local context and APIs using MCP for a flow-state development experience._ |
-| **⏩ 极速 ML 迭代 (Rapid ML Iteration)** | 针对数据挖掘任务，我能快速搭建 `EDA -> Feature Eng -> Modeling -> Eval` 的标准化流水线，用最短时间交付高质量模型结果。<br>_Building standardized ML pipelines rapidly to deliver high-quality model results in record time._ |
+</div>
+
+| 核心思想 / Core Philosophy | 描述 / Description |
+| :------------------------- | :----------------- |
+| **🔥 极速交付 (Ship Fast, Ship Often)** | 从想法到上线，我追求**极致的交付速度**。一个周末，一个完整的全栈应用。不是 Demo，是**可用的产品**。<br>_From idea to production in record time. A weekend = a fully functional app. Not a demo — a real product._ |
+| **🧠 架构主导 (Human-Led Architecture)** | AI 是我的**涡轮增压器**，但方向盘永远在我手里。系统设计、组件抽象、性能优化——这些核心决策**只能由人脑完成**。<br>_AI is my turbocharger, but I hold the steering wheel. Architecture, abstraction, optimization — these are human decisions._ |
+| **🌊 Vibe Coding & MCP** | 我不只是"用" AI，我**驾驭** AI。通过 **Cursor / Windsurf + MCP** 协议，我构建了一套上下文感知的开发环境，让 AI 真正理解我的项目。<br>_I don't just use AI — I orchestrate it. MCP-powered context-aware development for true AI-human synergy._ |
+| **🎨 像素级完美主义 (Pixel Perfectionist)** | 1px 的偏差我都能看出来。动画的缓动曲线、间距的黄金比例、色彩的和谐搭配——**细节决定品质**。<br>_I notice 1px misalignments. Easing curves, golden ratios, color harmony — details define quality._ |
 
 ---
 
@@ -91,10 +97,10 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 
 | **领域 / Field**  | **技术 / Technologies**                                      |
 | :---------------- | :----------------------------------------------------------- |
-| **💻 核心语言**    | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
+| **💻 核心语言**    | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) |
+| **🌐 前端框架**    | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) |
 | **🤖 AI & Data**   | ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![Scikit_Learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) ![DeepSeek](https://img.shields.io/badge/-DeepSeek-blue?style=flat) |
-| **🌐 全栈开发**    | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) |
-| **⚡ 效率 & 协议** | ![MCP](https://img.shields.io/badge/-MCP_Protocol-green?style=flat) ![Cursor](https://img.shields.io/badge/-Cursor_IDE-000000?style=flat&logo=openai&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) |
+| **⚡ 效率 & 工具** | ![MCP](https://img.shields.io/badge/-MCP_Protocol-green?style=flat) ![Cursor](https://img.shields.io/badge/-Cursor_IDE-000000?style=flat&logo=openai&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) |
 
 </div>
 
