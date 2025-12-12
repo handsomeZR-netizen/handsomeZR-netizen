@@ -47,16 +47,17 @@ I position myself as an **AI-Native Architect**. I excel at using cutting-edge t
 ## 📊 GitHub 数据概览 / GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-      </td>
-    </tr>
-  </table>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=default&hide_border=true&count_private=true" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  </picture>
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=default&hide_border=true&langs_count=6" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
+  </picture>
 </div>
 
 ---
