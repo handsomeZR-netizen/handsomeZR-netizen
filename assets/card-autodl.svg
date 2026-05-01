@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="autodl-experiment-skill — Codex Skill for remote GPU runs">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      @keyframes spark { 0%, 100% { opacity: 0.4 } 50% { opacity: 1 } }
+      .spark { animation: spark 1.4s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="600" height="200" rx="12" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1" />
+  <rect x="0" y="0" width="4" height="200" rx="2" fill="url(#accentBar)" />
+  <g transform="translate(28, 36)">
+    <text class="mono spark" fill="#fbbf24" font-size="13" font-weight="600">⚡</text>
+    <text class="mono" x="22" y="0" fill="#e6edf3" font-size="17" font-weight="700">autodl-experiment-skill</text>
+  </g>
+  <g transform="translate(450, 36)">
+    <text class="mono" x="0" y="0" fill="#fbbf24" font-size="13" font-weight="600">📧 email alerts</text>
+  </g>
+  <text x="28" y="80" class="sans" fill="#c9d1d9" font-size="14">Codex Skill that drives <tspan fill="#06b6d4" font-weight="600">AutoDL</tspan> GPU instances end-to-end —</text>
+  <text x="28" y="100" class="sans" fill="#c9d1d9" font-size="14">env setup, training, checkpointing — with email progress alerts</text>
+  <text x="28" y="120" class="sans" fill="#8b949e" font-size="14">so you don't have to babysit the job. <tspan fill="#a78bfa" font-style="italic">One-command remote training.</tspan></text>
+  <g transform="translate(28, 150)">
+    <g>
+      <rect width="68" height="24" rx="12" fill="rgba(55, 118, 171, 0.10)" stroke="#3776ab" stroke-width="1" />
+      <text x="34" y="16" class="mono" fill="#7eb6f6" font-size="11" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(78, 0)">
+      <rect width="68" height="24" rx="12" fill="rgba(6, 182, 212, 0.10)" stroke="#06b6d4" stroke-width="1" />
+      <text x="34" y="16" class="mono" fill="#67e8f9" font-size="11" text-anchor="middle">AutoDL</text>
+    </g>
+    <g transform="translate(156, 0)">
+      <rect width="56" height="24" rx="12" fill="rgba(238, 75, 43, 0.10)" stroke="#ee4b2b" stroke-width="1" />
+      <text x="28" y="16" class="mono" fill="#fca5a5" font-size="11" text-anchor="middle">GPU</text>
+    </g>
+    <g transform="translate(222, 0)">
+      <rect width="92" height="24" rx="12" fill="rgba(167, 139, 250, 0.10)" stroke="#a78bfa" stroke-width="1" />
+      <text x="46" y="16" class="mono" fill="#c4b5fd" font-size="11" text-anchor="middle">Codex Skill</text>
+    </g>
+    <g transform="translate(324, 0)">
+      <rect width="92" height="24" rx="12" fill="rgba(251, 191, 36, 0.10)" stroke="#fbbf24" stroke-width="1" />
+      <text x="46" y="16" class="mono" fill="#fcd34d" font-size="11" text-anchor="middle">Email Alerts</text>
+    </g>
+  </g>
+</svg>

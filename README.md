@@ -21,33 +21,21 @@
 
 ### ❯ Currently shipping
 
-<table border="0">
+<table border="0" cellspacing="12">
   <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/handsomeZR-netizen/eldercare-monitor">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=handsomeZR-netizen&repo=eldercare-monitor&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&description_lines_count=2" />
-      </a>
-      <p><sub>🟢 <b>v1.0.0</b> · Realtime safety dashboard for elderly-care institutions. Wandering &amp; lingering detection on a live floor-plan, alerts over WebSocket, trajectory replay + heatmaps.<br/><code>Bun · Hono · React 19 · WebSocket</code></sub></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/handsomeZR-netizen/eldercare-monitor"><img src="./assets/card-eldercare.svg" alt="eldercare-monitor — Realtime safety dashboard for elderly-care institutions" width="100%" /></a>
     </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/handsomeZR-netizen/retraction-watch-mcp">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=handsomeZR-netizen&repo=retraction-watch-mcp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&description_lines_count=2" />
-      </a>
-      <p><sub>🔬 <b>RW Screen</b> · Drag-in PDF/DOCX/LaTeX, every reference checked vs Retraction Watch with three-gate precision (title ≥ 0.92 + year ±1 + author surname). One engine, three surfaces: <b>Web · CLI · MCP</b>.<br/><code>Next.js 15 · TypeScript · MCP · SQLite</code></sub></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/handsomeZR-netizen/retraction-watch-mcp"><img src="./assets/card-retraction.svg" alt="retraction-watch-mcp — Local-first academic-integrity screening" width="100%" /></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/handsomeZR-netizen/zhuoyu-workshop-skill">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=handsomeZR-netizen&repo=zhuoyu-workshop-skill&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&description_lines_count=2" />
-      </a>
-      <p><sub>🎯 <b>琢玉工坊</b> · Codex Skill turning scattered coursework, 大创, 挑战杯, 毕设 into defendable deliverables. Doesn't fabricate — structures what's already real.<br/><code>Codex Skill · Academic · Project Delivery</code></sub></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/handsomeZR-netizen/zhuoyu-workshop-skill"><img src="./assets/card-zhuoyu.svg" alt="zhuoyu-workshop-skill — Codex Skill for student project delivery" width="100%" /></a>
     </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/handsomeZR-netizen/autodl-experiment-skill">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=handsomeZR-netizen&repo=autodl-experiment-skill&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&description_lines_count=2" />
-      </a>
-      <p><sub>⚡ <b>Remote GPU runs</b> · Codex Skill that drives AutoDL instances end-to-end — env, training, checkpointing — with email progress alerts so you don't babysit jobs.<br/><code>Python · AutoDL · Codex Skill</code></sub></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/handsomeZR-netizen/autodl-experiment-skill"><img src="./assets/card-autodl.svg" alt="autodl-experiment-skill — Codex Skill for remote GPU runs" width="100%" /></a>
     </td>
   </tr>
 </table>
@@ -137,16 +125,7 @@
 <div align="center">
 
 <a href="https://github.com/handsomeZR-netizen">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=handsomeZR-netizen&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&ring_color=A78BFA" alt="Stats" />
-</a>
-<a href="https://github.com/handsomeZR-netizen">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=handsomeZR-netizen&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&langs_count=8" alt="Top languages" />
-</a>
-
-<br/>
-
-<a href="https://github.com/handsomeZR-netizen">
-  <img src="https://streak-stats.demolab.com?user=handsomeZR-netizen&theme=tokyonight&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=FBBF24&currStreakLabel=A78BFA&dates=A78BFA&sideLabels=A78BFA&sideNums=c9d1d9&dayLabels=c9d1d9&currStreakNum=c9d1d9" alt="Streak" />
+  <img src="https://streak-stats.demolab.com?user=handsomeZR-netizen&theme=tokyonight&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=FBBF24&currStreakLabel=A78BFA&dates=A78BFA&sideLabels=A78BFA&sideNums=c9d1d9&dayLabels=c9d1d9&currStreakNum=c9d1d9" alt="Contribution streak" />
 </a>
 
 <br/><br/>
