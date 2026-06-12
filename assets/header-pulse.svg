@@ -1,0 +1,17 @@
+<svg width="880" height="58" viewBox="0 0 880 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pulse">
+  <defs>
+    <clipPath id="bar"><rect width="880" height="58" rx="15"/></clipPath>
+  </defs>
+  <g clip-path="url(#bar)">
+    <rect width="880" height="58" fill="#ECEFF7"/>
+    <rect width="9" height="58" fill="#7D8BBE"/>
+    <circle cx="844" cy="29" r="5" fill="#7D8BBE"/>
+    <circle cx="824" cy="29" r="5" fill="#7D8BBE" opacity="0.55"/>
+    <circle cx="804" cy="29" r="5" fill="#7D8BBE" opacity="0.3"/>
+    <rect x="201" y="28" width="587" height="2" rx="1" fill="#7D8BBE" opacity="0.28"/>
+    <path d="M 38 29 l 8 -10 8 10 -8 10 z" fill="#7D8BBE"/>
+    <text x="66" y="37" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#3B3650">Pulse</text>
+    <text x="134" y="36" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9A93AE">活跃度</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="57" rx="14.5" stroke="#D4DAEC"/>
+</svg>

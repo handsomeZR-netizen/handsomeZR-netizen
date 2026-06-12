@@ -1,0 +1,32 @@
+<svg width="880" height="170" viewBox="0 0 880 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Reproducible, documented, shippable — thanks for stopping by">
+  <defs>
+    <clipPath id="foot"><rect width="880" height="170" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .wave { animation: sway 9s ease-in-out infinite alternate; }
+    .w2 { animation-duration: 12s; animation-delay: -3s; }
+    .w3 { animation-duration: 15s; animation-delay: -6s; }
+    @keyframes sway { from { transform: translateX(0); } to { transform: translateX(-26px); } }
+    @media (prefers-reduced-motion: reduce) { .wave { animation: none; } }
+  </style>
+
+  <g clip-path="url(#foot)">
+    <rect width="880" height="170" fill="#FFFBF8"/>
+
+    <text x="440" y="58" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#3B3650">Reproducible · Documented · Shippable</text>
+    <text x="440" y="88" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#8D7AAE">Thanks for stopping by — open to research collaborations &amp; internships · 欢迎交流</text>
+
+    <!-- layered pastel waves -->
+    <g class="wave w3">
+      <path d="M -40 132 Q 70 112 180 132 T 400 132 T 620 132 T 840 132 T 1060 132 V 200 H -40 Z" fill="#AEB9DB" opacity="0.5"/>
+    </g>
+    <g class="wave w2">
+      <path d="M -40 142 Q 70 124 180 142 T 400 142 T 620 142 T 840 142 T 1060 142 V 200 H -40 Z" fill="#F2B8C6" opacity="0.6"/>
+    </g>
+    <g class="wave">
+      <path d="M -40 152 Q 70 136 180 152 T 400 152 T 620 152 T 840 152 T 1060 152 V 200 H -40 Z" fill="#9FD4D1" opacity="0.85"/>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="879" height="169" rx="21.5" stroke="#EBDDE6"/>
+</svg>

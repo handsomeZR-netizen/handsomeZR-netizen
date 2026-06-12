@@ -1,0 +1,17 @@
+<svg width="880" height="58" viewBox="0 0 880 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Toolbox">
+  <defs>
+    <clipPath id="bar"><rect width="880" height="58" rx="15"/></clipPath>
+  </defs>
+  <g clip-path="url(#bar)">
+    <rect width="880" height="58" fill="#E7F4F3"/>
+    <rect width="9" height="58" fill="#58B7B3"/>
+    <circle cx="844" cy="29" r="5" fill="#58B7B3"/>
+    <circle cx="824" cy="29" r="5" fill="#58B7B3" opacity="0.55"/>
+    <circle cx="804" cy="29" r="5" fill="#58B7B3" opacity="0.3"/>
+    <rect x="225" y="28" width="563" height="2" rx="1" fill="#58B7B3" opacity="0.28"/>
+    <path d="M 38 29 l 8 -10 8 10 -8 10 z" fill="#58B7B3"/>
+    <text x="66" y="37" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#3B3650">Toolbox</text>
+    <text x="158" y="36" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9A93AE">技术栈</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="57" rx="14.5" stroke="#C8E6E4"/>
+</svg>

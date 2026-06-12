@@ -1,0 +1,79 @@
+<svg width="880" height="256" viewBox="0 0 880 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ziray Xu 徐子锐 — AI-native developer at Nanjing Normal University">
+  <defs>
+    <clipPath id="card"><rect width="880" height="256" rx="22"/></clipPath>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#F2B8C6"/>
+      <stop offset="0.25" stop-color="#8D7AAE"/>
+      <stop offset="0.5"  stop-color="#7D8BBE"/>
+      <stop offset="0.75" stop-color="#58B7B3"/>
+      <stop offset="1"    stop-color="#E88E74"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .blob  { animation: drift 12s ease-in-out infinite alternate; }
+    .blobB { animation-duration: 15s; animation-delay: -5s; }
+    .blobC { animation-duration: 10s; animation-delay: -2s; }
+    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(24px,12px); } }
+    .spark { animation: twinkle 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .s2 { animation-delay: 1.2s; } .s3 { animation-delay: 2.1s; } .s4 { animation-delay: 0.6s; }
+    @keyframes twinkle { 0%,100% { opacity: .25; transform: scale(.8); } 50% { opacity: .95; transform: scale(1.05); } }
+    @media (prefers-reduced-motion: reduce) { .blob,.blobB,.blobC,.spark { animation: none; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="880" height="256" fill="#FFFBF8"/>
+
+    <!-- drifting pastel atmosphere -->
+    <g filter="url(#soft)">
+      <ellipse class="blob"       cx="110" cy="36"  rx="200" ry="120" fill="#F2B8C6" opacity="0.55"/>
+      <ellipse class="blob blobB" cx="430" cy="262" rx="250" ry="120" fill="#AEB9DB" opacity="0.48"/>
+      <ellipse class="blob blobC" cx="812" cy="48"  rx="210" ry="130" fill="#9FD4D1" opacity="0.55"/>
+      <ellipse class="blob blobB" cx="704" cy="252" rx="170" ry="95"  fill="#F6D6A8" opacity="0.55"/>
+      <ellipse class="blob blobC" cx="300" cy="-30" rx="150" ry="90"  fill="#8D7AAE" opacity="0.20"/>
+    </g>
+
+    <!-- pastel rainbow arc, rising from the lower right -->
+    <g transform="translate(742,256)" stroke-linecap="round" fill="none">
+      <path d="M -118 0 A 118 118 0 0 1 118 0" stroke="#F2B8C6" stroke-width="11"/>
+      <path d="M -97 0  A 97 97   0 0 1 97 0"  stroke="#8D7AAE" stroke-width="11"/>
+      <path d="M -76 0  A 76 76   0 0 1 76 0"  stroke="#7D8BBE" stroke-width="11"/>
+      <path d="M -55 0  A 55 55   0 0 1 55 0"  stroke="#58B7B3" stroke-width="11"/>
+      <path d="M -34 0  A 34 34   0 0 1 34 0"  stroke="#F6D6A8" stroke-width="11"/>
+      <circle cx="0" cy="-7" r="7" fill="#E88E74" stroke="none"/>
+    </g>
+
+    <!-- twinkling sparkles -->
+    <g fill="#E88E74">
+      <path class="spark"    d="M 596 56 l 5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 z"/>
+      <path class="spark s2" d="M 652 130 l 4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 z" fill="#8D7AAE"/>
+      <path class="spark s3" d="M 560 168 l 3.5 8 8 3.5 -8 3.5 -3.5 8 -3.5 -8 -8 -3.5 8 -3.5 z" fill="#58B7B3"/>
+      <path class="spark s4" d="M 836 150 l 4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 z" fill="#F2B8C6"/>
+    </g>
+
+    <!-- type -->
+    <text x="58" y="78" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4.5" fill="#7D8BBE" font-weight="bold">AI · EDTECH · RESEARCH TOOLING · FRONTEND</text>
+    <text x="56" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#3B3650">Ziray Xu</text>
+    <text x="312" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#8D7AAE">徐子锐</text>
+    <text x="58" y="174" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5B566E">Building gentle, reproducible tools for classrooms and research labs.</text>
+
+    <rect x="58" y="194" width="260" height="4" rx="2" fill="url(#rule)"/>
+
+    <!-- palette signature -->
+    <g transform="translate(58,222)">
+      <circle cx="6"   cy="0" r="6" fill="#F2B8C6"/>
+      <circle cx="28"  cy="0" r="6" fill="#8D7AAE"/>
+      <circle cx="50"  cy="0" r="6" fill="#7D8BBE"/>
+      <circle cx="72"  cy="0" r="6" fill="#AEB9DB"/>
+      <circle cx="94"  cy="0" r="6" fill="#9FD4D1"/>
+      <circle cx="116" cy="0" r="6" fill="#58B7B3"/>
+      <circle cx="138" cy="0" r="6" fill="#F6D6A8"/>
+      <circle cx="160" cy="0" r="6" fill="#E88E74"/>
+      <text x="180" y="4.5" font-family="Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="1.5" fill="#9A93AE">NANJING NORMAL UNIVERSITY · 南京</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="879" height="255" rx="21.5" stroke="#EBDDE6"/>
+</svg>
