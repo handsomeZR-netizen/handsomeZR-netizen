@@ -1,0 +1,85 @@
+<svg width="880" height="196" viewBox="0 0 880 196" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Toolbox: languages, web, AI and ops tools">
+  <defs>
+    <clipPath id="tb"><rect width="880" height="196" rx="18"/></clipPath>
+    <filter id="tbsoft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <g clip-path="url(#tb)">
+    <rect width="880" height="196" fill="#FFFBF8"/>
+    <g filter="url(#tbsoft)"><ellipse cx="880" cy="30" rx="150" ry="100" fill="#9FD4D1" opacity="0.4"/><ellipse cx="880" cy="170" rx="150" ry="100" fill="#F2B8C6" opacity="0.35"/></g>
+    <path d="M 34 40 l 5 -6 5 6 -5 6 z" fill="#7D8BBE"/>
+    <text x="52" y="44" font-family="Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.2" font-weight="bold" fill="#7D8BBE">LANGUAGES</text>
+    <rect x="188" y="27" width="105" height="26" rx="13" fill="#ECEFF7" stroke="#7D8BBE" stroke-opacity="0.45"/>
+    <circle cx="204" cy="40" r="3.4" fill="#7D8BBE"/>
+    <text x="215" y="44.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">TypeScript</text>
+    <rect x="303" y="27" width="77" height="26" rx="13" fill="#ECEFF7" stroke="#7D8BBE" stroke-opacity="0.45"/>
+    <circle cx="319" cy="40" r="3.4" fill="#7D8BBE"/>
+    <text x="330" y="44.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Python</text>
+    <rect x="390" y="27" width="105" height="26" rx="13" fill="#ECEFF7" stroke="#7D8BBE" stroke-opacity="0.45"/>
+    <circle cx="406" cy="40" r="3.4" fill="#7D8BBE"/>
+    <text x="417" y="44.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">JavaScript</text>
+    <rect x="505" y="27" width="105" height="26" rx="13" fill="#ECEFF7" stroke="#7D8BBE" stroke-opacity="0.45"/>
+    <circle cx="521" cy="40" r="3.4" fill="#7D8BBE"/>
+    <text x="532" y="44.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">HTML / CSS</text>
+    <rect x="620" y="27" width="70" height="26" rx="13" fill="#ECEFF7" stroke="#7D8BBE" stroke-opacity="0.45"/>
+    <circle cx="636" cy="40" r="3.4" fill="#7D8BBE"/>
+    <text x="647" y="44.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">LaTeX</text>
+    <path d="M 34 78 l 5 -6 5 6 -5 6 z" fill="#F2B8C6"/>
+    <text x="52" y="82" font-family="Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.2" font-weight="bold" fill="#E08CA6">WEB &amp; UI</text>
+    <rect x="188" y="65" width="70" height="26" rx="13" fill="#FCEDF1" stroke="#F2B8C6" stroke-opacity="0.45"/>
+    <circle cx="204" cy="78" r="3.4" fill="#F2B8C6"/>
+    <text x="215" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">React</text>
+    <rect x="268" y="65" width="84" height="26" rx="13" fill="#FCEDF1" stroke="#F2B8C6" stroke-opacity="0.45"/>
+    <circle cx="284" cy="78" r="3.4" fill="#F2B8C6"/>
+    <text x="295" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Next.js</text>
+    <rect x="362" y="65" width="64" height="26" rx="13" fill="#FCEDF1" stroke="#F2B8C6" stroke-opacity="0.45"/>
+    <circle cx="378" cy="78" r="3.4" fill="#F2B8C6"/>
+    <text x="389" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Vite</text>
+    <rect x="436" y="65" width="91" height="26" rx="13" fill="#FCEDF1" stroke="#F2B8C6" stroke-opacity="0.45"/>
+    <circle cx="452" cy="78" r="3.4" fill="#F2B8C6"/>
+    <text x="463" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Tailwind</text>
+    <rect x="537" y="65" width="84" height="26" rx="13" fill="#FCEDF1" stroke="#F2B8C6" stroke-opacity="0.45"/>
+    <circle cx="553" cy="78" r="3.4" fill="#F2B8C6"/>
+    <text x="564" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Node.js</text>
+    <rect x="631" y="65" width="57" height="26" rx="13" fill="#FCEDF1" stroke="#F2B8C6" stroke-opacity="0.45"/>
+    <circle cx="647" cy="78" r="3.4" fill="#F2B8C6"/>
+    <text x="658" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Bun</text>
+    <path d="M 34 116 l 5 -6 5 6 -5 6 z" fill="#58B7B3"/>
+    <text x="52" y="120" font-family="Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.2" font-weight="bold" fill="#58B7B3">AI · CV · RL</text>
+    <rect x="188" y="103" width="84" height="26" rx="13" fill="#E7F4F3" stroke="#58B7B3" stroke-opacity="0.45"/>
+    <circle cx="204" cy="116" r="3.4" fill="#58B7B3"/>
+    <text x="215" y="120.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">PyTorch</text>
+    <rect x="282" y="103" width="77" height="26" rx="13" fill="#E7F4F3" stroke="#58B7B3" stroke-opacity="0.45"/>
+    <circle cx="298" cy="116" r="3.4" fill="#58B7B3"/>
+    <text x="309" y="120.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">OpenCV</text>
+    <rect x="369" y="103" width="98" height="26" rx="13" fill="#E7F4F3" stroke="#58B7B3" stroke-opacity="0.45"/>
+    <circle cx="385" cy="116" r="3.4" fill="#58B7B3"/>
+    <text x="396" y="120.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">MediaPipe</text>
+    <rect x="477" y="103" width="91" height="26" rx="13" fill="#E7F4F3" stroke="#58B7B3" stroke-opacity="0.45"/>
+    <circle cx="493" cy="116" r="3.4" fill="#58B7B3"/>
+    <text x="504" y="120.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">PPO / RL</text>
+    <rect x="578" y="103" width="91" height="26" rx="13" fill="#E7F4F3" stroke="#58B7B3" stroke-opacity="0.45"/>
+    <circle cx="594" cy="116" r="3.4" fill="#58B7B3"/>
+    <text x="605" y="120.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">LCM-LoRA</text>
+    <path d="M 34 154 l 5 -6 5 6 -5 6 z" fill="#8D7AAE"/>
+    <text x="52" y="158" font-family="Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.2" font-weight="bold" fill="#8D7AAE">OPS &amp; DOCS</text>
+    <rect x="188" y="141" width="77" height="26" rx="13" fill="#F0ECF6" stroke="#8D7AAE" stroke-opacity="0.45"/>
+    <circle cx="204" cy="154" r="3.4" fill="#8D7AAE"/>
+    <text x="215" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Docker</text>
+    <rect x="275" y="141" width="133" height="26" rx="13" fill="#F0ECF6" stroke="#8D7AAE" stroke-opacity="0.45"/>
+    <circle cx="291" cy="154" r="3.4" fill="#8D7AAE"/>
+    <text x="302" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">GitHub Actions</text>
+    <rect x="418" y="141" width="77" height="26" rx="13" fill="#F0ECF6" stroke="#8D7AAE" stroke-opacity="0.45"/>
+    <circle cx="434" cy="154" r="3.4" fill="#8D7AAE"/>
+    <text x="445" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Vercel</text>
+    <rect x="505" y="141" width="70" height="26" rx="13" fill="#F0ECF6" stroke="#8D7AAE" stroke-opacity="0.45"/>
+    <circle cx="521" cy="154" r="3.4" fill="#8D7AAE"/>
+    <text x="532" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Linux</text>
+    <rect x="585" y="141" width="57" height="26" rx="13" fill="#F0ECF6" stroke="#8D7AAE" stroke-opacity="0.45"/>
+    <circle cx="601" cy="154" r="3.4" fill="#8D7AAE"/>
+    <text x="612" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">Git</text>
+    <rect x="652" y="141" width="84" height="26" rx="13" fill="#F0ECF6" stroke="#8D7AAE" stroke-opacity="0.45"/>
+    <circle cx="668" cy="154" r="3.4" fill="#8D7AAE"/>
+    <text x="679" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#3B3650">XeLaTeX</text>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="195" rx="17.5" stroke="#EBDDE6"/>
+</svg>
