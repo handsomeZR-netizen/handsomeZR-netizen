@@ -1,0 +1,50 @@
+name: Profile data (snake + save data)
+
+# Runs daily and on every push to main. Everything lands on the `output`
+# branch, which README.md reads via raw.githubusercontent.com.
+# The first two snake files are kept for the archived v2 homepage (versions/v2-macaron).
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # 02:00 Beijing time
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-data
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution snakes
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#8B5CF6&color_dots=#1f2937,#7C3AED,#A855F7,#C084FC,#E9D5FF
+            dist/snake-pixel-light.svg?color_snake=#E88E74&color_dots=#F1EAF3,#E2D2EE,#C8B2E6,#A68DD7,#7E66BF
+            dist/snake-pixel-dark.svg?palette=github-dark&color_snake=#FFD49A&color_dots=#1E1A38,#3B2F70,#5E47A8,#8C6FE0,#C4B0F6
+
+      - name: Generate pixel save-data card
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/stats.py --user "${{ github.repository_owner }}" --out dist
+
+      - name: Push to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

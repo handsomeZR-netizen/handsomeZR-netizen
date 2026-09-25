@@ -1,0 +1,291 @@
+# 主页内容配置 · All homepage text lives here.
+# 改完运行 / after editing run:   python3 tools/build.py
+# 文字宽度超出卡片时 build.py 会直接报错并告诉你是哪一行，不会悄悄溢出。
+
+[player]
+name = "ZIRAY XU"
+name_zh = "徐子锐"
+title = "AI-NATIVE BUILDER"
+github = "handsomeZR-netizen"
+email = "1516924835@qq.com"
+motto = "REPRODUCIBLE · DOCUMENTED · SHIPPABLE"
+
+[dialog]
+speaker = "ZIRAY · 徐子锐"
+lines = [
+  "嗨！我是徐子锐，南京师范大学人工智能专业本科生。",
+  "我用 AI 做教育科技与科研工具，让想法落地成产品。",
+  "信条：AI 是引擎，方向盘始终在我手里。",
+  "Hi! I build AI-native tools for classrooms & labs.",
+]
+seeking = "正在寻找：科研合作 · 实习机会"
+
+[status]
+class = "AI-NATIVE BUILDER"
+
+# 能力面板：code 会出现在雷达图和任务卡片上；color 可选 pink/lav/blue/teal/peach/coral/gold
+[[ability]]
+code = "AGT"
+name = "智能体工程"
+keywords = "MCP Server · Codex Skills · 工作流自动化"
+level = 9
+color = "lav"
+icon = "robot"
+
+[[ability]]
+code = "LLM"
+name = "大模型应用"
+keywords = "DeepSeek · Prompt · RAG · 智能评测"
+level = 8
+color = "pink"
+icon = "chat"
+
+[[ability]]
+code = "WEB"
+name = "全栈开发"
+keywords = "TypeScript · React 19 · Next.js 15 · Bun"
+level = 8
+color = "blue"
+icon = "window"
+
+[[ability]]
+code = "SCI"
+name = "科研工具"
+keywords = "LaTeX · 基准测试 · 学术绘图 · 可复现"
+level = 8
+color = "teal"
+icon = "flask"
+
+[[ability]]
+code = "CV"
+name = "视觉与强化学习"
+keywords = "MediaPipe · OpenCV · PPO · TF.js"
+level = 6
+color = "coral"
+icon = "eye"
+
+[[ability]]
+code = "OPS"
+name = "工程化交付"
+keywords = "Docker · CI/CD · 自动化测试 · 文档驱动"
+level = 7
+color = "peach"
+icon = "rocket"
+
+# 任务日志：kind = main（主线，进行中）或 side（支线，已通关）
+[[quest]]
+kind = "main"
+repo = "eldercare-monitor"
+zh = "智慧养老安全监护系统"
+desc = "Live floor-plan safety dashboard with wandering alerts & replay."
+tags = ["React 19", "Bun", "WebSocket"]
+skills = ["WEB", "OPS"]
+reward = "v1.0.0 已发布"
+icon = "heart"
+
+[[quest]]
+kind = "main"
+repo = "retraction-watch-mcp"
+zh = "学术诚信 · 参考文献撤稿筛查"
+desc = "Screens every paper reference against Retraction Watch, locally."
+tags = ["Next.js 15", "MCP", "SQLite"]
+skills = ["AGT", "OPS"]
+reward = "184 项测试通过"
+icon = "shield"
+
+[[quest]]
+kind = "main"
+repo = "zhuoyu-workshop-skill"
+zh = "琢玉工坊 · 学生项目交付 Skill"
+desc = "Turns coursework & 大创 files into defendable deliverables."
+tags = ["Codex Skill", "Markdown"]
+skills = ["AGT", "LLM"]
+reward = "最受欢迎的 Skill"
+icon = "gem"
+
+[[quest]]
+kind = "main"
+repo = "autodl-experiment-skill"
+zh = "远程 GPU 实验托管 Skill"
+desc = "Runs AutoDL GPU jobs end-to-end with email progress alerts."
+tags = ["Python", "AutoDL", "GPU"]
+skills = ["AGT", "OPS"]
+reward = "一键远程训练"
+icon = "bolt"
+
+[[quest]]
+kind = "side"
+repo = "nnu-smartwrite"
+zh = "AI 英语写作评估"
+desc = "DeepSeek-powered essay scoring"
+tags = ["TypeScript", "DeepSeek"]
+skills = ["LLM", "WEB"]
+icon = "pencil"
+
+[[quest]]
+kind = "side"
+repo = "zirui"
+zh = "电路实验 AI 助教"
+desc = "Circuit lab tutor with MNA solver"
+tags = ["Python", "MNA"]
+skills = ["LLM", "SCI"]
+icon = "circuit"
+
+[[quest]]
+kind = "side"
+repo = "jcip-latex-template"
+zh = "《中文信息学报》LaTeX 模板"
+desc = "Clean template, academic defaults"
+tags = ["LaTeX", "XeLaTeX"]
+skills = ["SCI"]
+reward = "高星仓库"
+icon = "scroll"
+
+[[quest]]
+kind = "side"
+repo = "plotweaver-skillkit"
+zh = "公众号绘图风格 → 学术图表"
+desc = "Replay article styles in figures"
+tags = ["Python", "Matplotlib", "Skill"]
+skills = ["SCI", "AGT"]
+icon = "chart"
+
+[[quest]]
+kind = "side"
+repo = "webcam-fruit-ninja"
+zh = "摄像头手势切水果"
+desc = "Gesture-controlled browser game"
+tags = ["MediaPipe", "TF.js"]
+skills = ["CV"]
+reward = "Trae 一等奖"
+icon = "trophy"
+
+[[quest]]
+kind = "side"
+repo = "nju-traffic-practicum-coursework"
+zh = "腾讯开悟 · 交通信号调度"
+desc = "Traffic-light agents with PPO"
+tags = ["Python", "PPO", "CI"]
+skills = ["CV", "OPS"]
+icon = "light"
+
+[[quest]]
+kind = "side"
+repo = "personal-markdown-online"
+zh = "AI Markdown 知识库"
+desc = "AI notes: tagging, auth, Postgres"
+tags = ["Next.js", "Prisma"]
+skills = ["WEB", "LLM"]
+reward = "高星仓库"
+icon = "note"
+
+[[quest]]
+kind = "side"
+repo = "fastxebench"
+zh = "XeLaTeX 编译延迟基准"
+desc = "Edit-to-PDF latency benchmark"
+tags = ["Python", "LaTeX"]
+skills = ["SCI", "OPS"]
+icon = "clock"
+
+# 折叠区「更多支线」（纯文字，写在 README 里）
+[[more]]
+repo = "dachuang-report"
+desc = "大创结题报告写作 Skill — AI-assisted writing for innovation reports & defense materials"
+
+[[more]]
+repo = "teacher-research-lab"
+desc = "教师科研实验室 Web 原型 — cloud APIs & animated UI"
+
+[[more]]
+repo = "nnu-innovation-training-platform"
+desc = "创新训练项目平台 — deployment automation & image optimization"
+
+[[more]]
+repo = "nnu-deeplearning-lcm-lora-benchmark"
+desc = "LCM-LoRA 图像生成基准 — FID / LPIPS evaluation"
+
+[[more]]
+repo = "mcm2026"
+desc = "数学建模工作区 — analysis, drafting, visualization, reproducible notes"
+
+[[more]]
+repo = "electrical-lab-core-algorithm"
+desc = "zirui 的电路核心算法库 — MNA solver & diagnostics"
+
+[[more]]
+repo = "gesture-lenet-showcase"
+desc = "手势控制电脑 — MediaPipe + OpenCV"
+
+[[more]]
+repo = "ecommerce-product-pages"
+desc = "高性能商品页 — React, Zustand & Tailwind"
+
+[[more]]
+repo = "Localized-Resume-Editor"
+desc = "隐私优先的本地简历编辑器 — no login, WYSIWYG, exports HTML"
+
+[[more]]
+repo = "koa-persistent-todo-api"
+desc = "持久化 Todo API — Koa, Swagger, Docker, GitHub Actions"
+
+# 装备栏：main = true 会带金色星标（主力装备）
+[[inventory]]
+code = "LANG"
+name = "语言"
+color = "blue"
+items = ["TypeScript*", "Python*", "JavaScript", "HTML/CSS", "SQL", "LaTeX"]
+
+[[inventory]]
+code = "FRONT"
+name = "前端"
+color = "pink"
+items = ["React*", "Next.js*", "Vite", "Tailwind", "Zustand"]
+
+[[inventory]]
+code = "BACK"
+name = "后端"
+color = "peach"
+items = ["Node.js", "Bun", "Hono", "Koa", "Prisma", "PostgreSQL", "SQLite"]
+
+[[inventory]]
+code = "AI"
+name = "智能"
+color = "teal"
+items = ["PyTorch*", "OpenCV", "MediaPipe", "TensorFlow.js", "DeepSeek", "PPO", "LCM-LoRA"]
+
+[[inventory]]
+code = "TOOLS"
+name = "工具链"
+color = "lav"
+items = ["MCP*", "Codex*", "Cursor", "Docker", "GitHub Actions", "Vercel", "Linux", "Git"]
+
+[[achievement]]
+icon = "trophy"
+title = "Trae on Campus 一等奖"
+sub = "南京大学站 · 手势切水果"
+
+[[achievement]]
+icon = "star"
+title = "最受欢迎的 Skill"
+sub = "zhuoyu-workshop-skill"
+
+[[achievement]]
+icon = "check"
+title = "184 项测试全通过"
+sub = "retraction-watch-mcp"
+
+[[achievement]]
+icon = "rocket"
+title = "v1.0.0 正式发布"
+sub = "eldercare-monitor"
+
+[[achievement]]
+icon = "scroll"
+title = "学报 LaTeX 模板"
+sub = "jcip-latex-template"
+
+[[achievement]]
+icon = "chest"
+title = "30+ 个开源仓库"
+sub = "教育 · 科研 · AI 工具"
