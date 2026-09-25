@@ -115,11 +115,18 @@ def readme(prof):
             "</div>",
             "",
             "<details>",
-            f"<summary><b>更多支线任务 · More side quests ({len(more)})</b></summary>",
+            f"<summary><b>更多项目 · More projects ({len(more)})</b></summary>",
             "<br/>",
             "",
         ]
-        lines += [f"- [**{m['repo']}**]({gh}/{m['repo']}) — {m['desc']}" for m in more]
+        groups = {}
+        for m in more:
+            groups.setdefault(m.get("group", ""), []).append(m)
+        for g, items in groups.items():
+            if g:
+                lines += [f"**{g}**", ""]
+            lines += [f"- [**{m['repo']}**]({gh}/{m['repo']}) — {m['desc']}" for m in items]
+            lines += [""]
         lines += ["", "</details>", "", '<div align="center">', ""]
     lines += [
         pic("inventory", "Tech stack: " + "; ".join(

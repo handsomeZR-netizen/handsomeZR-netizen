@@ -7,51 +7,75 @@
 
 <img src="assets/hero-dark.svg" width="100%" alt="Ziray — AI-native builder · 本科 南师大 · 硕士 南航 · Nanjing">
 
-<img src="assets/dialog-dark.svg" width="100%" alt="嗨！我是 Ziray，一名 AI 原生开发者。 本科 南京师范大学 · 人工智能，硕士 南京航空航天大学 我用 AI 做教育科技与科研工具，让想法落地成产品。 信条：AI 是引擎，方向盘始终在我手里。 Hi! I build AI-native tools for classrooms &amp; labs. 正在寻找：科研合作 · 实习机会">
+<img src="assets/dialog-dark.svg" width="100%" alt="嗨！我是 Ziray，一名 AI 原生开发者。 本科 南京师范大学 · 人工智能，硕士 南京航空航天大学 我做 AI Skill 与科研工具，让想法落地成能用的产品。 信条：AI 是引擎，方向盘始终在我手里。 Hi! I build AI agent skills and research tools. 正在寻找：科研合作 · 实习机会">
 
-<img src="assets/status-dark.svg" width="100%" alt="Abilities: 智能体工程 (AGT) Lv.9 — MCP Server · Codex Skills · 工作流自动化; 大模型应用 (LLM) Lv.8 — DeepSeek · Prompt · RAG · 智能评测; 全栈开发 (WEB) Lv.8 — TypeScript · React 19 · Next.js 15 · Bun; 科研工具 (SCI) Lv.8 — 数学建模 · LaTeX · 基准测试 · 学术绘图; 视觉与强化学习 (CV) Lv.6 — MediaPipe · OpenCV · PPO · TF.js; 工程化交付 (OPS) Lv.7 — Docker · CI/CD · 自动化测试 · 文档驱动">
+<img src="assets/status-dark.svg" width="100%" alt="Abilities: 智能体工程 (AGT) Lv.9 — Claude Code / Codex Skill · MCP · 工作流; 大模型应用 (LLM) Lv.8 — DeepSeek · Prompt · RAG · 智能评测; 全栈开发 (WEB) Lv.8 — TypeScript · React 19 · Next.js 15 · Bun; 科研工具 (SCI) Lv.8 — 数学建模 · 论文与专利写作 · LaTeX; 视觉与强化学习 (CV) Lv.6 — MediaPipe · OpenCV · PPO · TF.js; 工程化交付 (OPS) Lv.7 — Docker · CI/CD · 自动化测试 · 文档驱动">
 
 <img src="assets/quests-dark.svg" width="100%" alt="Quest log">
 
 <a href="https://github.com/handsomeZR-netizen/mathmodel-skill"><img src="assets/quest-mathmodel-skill-dark.svg" width="49%" alt="mathmodel-skill — 数学建模竞赛 Agent 工作流: 10-stage agent workflow for CUMCM, MCM/ICM &amp; Diangong Cup." title="mathmodel-skill — 数学建模竞赛 Agent 工作流: 10-stage agent workflow for CUMCM, MCM/ICM &amp; Diangong Cup."></a>
-<a href="https://github.com/handsomeZR-netizen/eldercare-monitor"><img src="assets/quest-eldercare-monitor-dark.svg" width="49%" alt="eldercare-monitor — 智慧养老安全监护系统: Live floor-plan safety dashboard with wandering alerts &amp; replay." title="eldercare-monitor — 智慧养老安全监护系统: Live floor-plan safety dashboard with wandering alerts &amp; replay."></a>
-<a href="https://github.com/handsomeZR-netizen/retraction-watch-mcp"><img src="assets/quest-retraction-watch-mcp-dark.svg" width="49%" alt="retraction-watch-mcp — 学术诚信 · 参考文献撤稿筛查: Screens every paper reference against Retraction Watch, locally." title="retraction-watch-mcp — 学术诚信 · 参考文献撤稿筛查: Screens every paper reference against Retraction Watch, locally."></a>
+<a href="https://github.com/handsomeZR-netizen/ko5.6sol"><img src="assets/quest-ko5.6sol-dark.svg" width="49%" alt="ko5.6sol — 学术论文去 AI 味重构 Skill: Strips GPT-style phrasing and defensive disclaimers from papers." title="ko5.6sol — 学术论文去 AI 味重构 Skill: Strips GPT-style phrasing and defensive disclaimers from papers."></a>
+<a href="https://github.com/handsomeZR-netizen/cn-patent-drafter"><img src="assets/quest-cn-patent-drafter-dark.svg" width="49%" alt="cn-patent-drafter — 中国发明专利起草 Skill: Drafts invention patents to CNIPA 2026 rules from one sentence." title="cn-patent-drafter — 中国发明专利起草 Skill: Drafts invention patents to CNIPA 2026 rules from one sentence."></a>
 <a href="https://github.com/handsomeZR-netizen/zhuoyu-workshop-skill"><img src="assets/quest-zhuoyu-workshop-skill-dark.svg" width="49%" alt="zhuoyu-workshop-skill — 琢玉工坊 · 学生项目交付 Skill: Turns coursework &amp; 大创 files into defendable deliverables." title="zhuoyu-workshop-skill — 琢玉工坊 · 学生项目交付 Skill: Turns coursework &amp; 大创 files into defendable deliverables."></a>
+<a href="https://github.com/handsomeZR-netizen/social-science-paperwork-skill"><img src="assets/quest-social-science-paperwork-skill-dark.svg" width="49%" alt="social-science-paperwork-skill — 人文社科研究与写作 Skill: Research design, surveys, interviews and submission audits." title="social-science-paperwork-skill — 人文社科研究与写作 Skill: Research design, surveys, interviews and submission audits."></a>
+<a href="https://github.com/handsomeZR-netizen/retraction-watch-mcp"><img src="assets/quest-retraction-watch-mcp-dark.svg" width="49%" alt="retraction-watch-mcp — 学术诚信 · 参考文献撤稿筛查: Screens every paper reference against Retraction Watch, locally." title="retraction-watch-mcp — 学术诚信 · 参考文献撤稿筛查: Screens every paper reference against Retraction Watch, locally."></a>
 
-<a href="https://github.com/handsomeZR-netizen/autodl-experiment-skill"><img src="assets/quest-autodl-experiment-skill-dark.svg" width="49%" alt="autodl-experiment-skill — 远程 GPU 实验托管 Skill: AutoDL GPU jobs + email alerts" title="autodl-experiment-skill — 远程 GPU 实验托管 Skill: AutoDL GPU jobs + email alerts"></a>
+<a href="https://github.com/handsomeZR-netizen/eldercare-monitor"><img src="assets/quest-eldercare-monitor-dark.svg" width="49%" alt="eldercare-monitor — 智慧养老安全监护系统: Live floor-plan safety dashboard" title="eldercare-monitor — 智慧养老安全监护系统: Live floor-plan safety dashboard"></a>
+<a href="https://github.com/handsomeZR-netizen/face-arcade"><img src="assets/quest-face-arcade-dark.svg" width="49%" alt="face-arcade — YOLOv8 人脸追踪街机: 5 head-tracked mini-games, 60fps" title="face-arcade — YOLOv8 人脸追踪街机: 5 head-tracked mini-games, 60fps"></a>
+<a href="https://github.com/handsomeZR-netizen/cannbot-bench-loop"><img src="assets/quest-cannbot-bench-loop-dark.svg" width="49%" alt="cannbot-bench-loop — 昇腾算子评测驱动优化闭环: Eval-driven Ascend op tuning loop" title="cannbot-bench-loop — 昇腾算子评测驱动优化闭环: Eval-driven Ascend op tuning loop"></a>
+<a href="https://github.com/handsomeZR-netizen/academic-topic-research-agent"><img src="assets/quest-academic-topic-research-agent-dark.svg" width="49%" alt="academic-topic-research-agent — 学术选题前置调研 Agent: One idea in, CHI-style brief out" title="academic-topic-research-agent — 学术选题前置调研 Agent: One idea in, CHI-style brief out"></a>
+<a href="https://github.com/handsomeZR-netizen/webcam-fruit-ninja"><img src="assets/quest-webcam-fruit-ninja-dark.svg" width="49%" alt="webcam-fruit-ninja — 摄像头手势切水果: Gesture-controlled browser game" title="webcam-fruit-ninja — 摄像头手势切水果: Gesture-controlled browser game"></a>
 <a href="https://github.com/handsomeZR-netizen/nnu-smartwrite"><img src="assets/quest-nnu-smartwrite-dark.svg" width="49%" alt="nnu-smartwrite — AI 英语写作评估: DeepSeek-powered essay scoring" title="nnu-smartwrite — AI 英语写作评估: DeepSeek-powered essay scoring"></a>
 <a href="https://github.com/handsomeZR-netizen/zirui"><img src="assets/quest-zirui-dark.svg" width="49%" alt="zirui — 电路实验 AI 助教: Circuit lab tutor with MNA solver" title="zirui — 电路实验 AI 助教: Circuit lab tutor with MNA solver"></a>
 <a href="https://github.com/handsomeZR-netizen/jcip-latex-template"><img src="assets/quest-jcip-latex-template-dark.svg" width="49%" alt="jcip-latex-template — 《中文信息学报》LaTeX 模板: Clean template, academic defaults" title="jcip-latex-template — 《中文信息学报》LaTeX 模板: Clean template, academic defaults"></a>
 <a href="https://github.com/handsomeZR-netizen/plotweaver-skillkit"><img src="assets/quest-plotweaver-skillkit-dark.svg" width="49%" alt="plotweaver-skillkit — 公众号绘图风格 → 学术图表: Replay article styles in figures" title="plotweaver-skillkit — 公众号绘图风格 → 学术图表: Replay article styles in figures"></a>
-<a href="https://github.com/handsomeZR-netizen/webcam-fruit-ninja"><img src="assets/quest-webcam-fruit-ninja-dark.svg" width="49%" alt="webcam-fruit-ninja — 摄像头手势切水果: Gesture-controlled browser game" title="webcam-fruit-ninja — 摄像头手势切水果: Gesture-controlled browser game"></a>
 <a href="https://github.com/handsomeZR-netizen/nju-traffic-practicum-coursework"><img src="assets/quest-nju-traffic-practicum-coursework-dark.svg" width="49%" alt="nju-traffic-practicum-coursework — 腾讯开悟 · 交通信号调度: Traffic-light agents with PPO" title="nju-traffic-practicum-coursework — 腾讯开悟 · 交通信号调度: Traffic-light agents with PPO"></a>
-<a href="https://github.com/handsomeZR-netizen/personal-markdown-online"><img src="assets/quest-personal-markdown-online-dark.svg" width="49%" alt="personal-markdown-online — AI Markdown 知识库: AI notes: tagging, auth, Postgres" title="personal-markdown-online — AI Markdown 知识库: AI notes: tagging, auth, Postgres"></a>
 
 </div>
 
 <details>
-<summary><b>更多支线任务 · More side quests (11)</b></summary>
+<summary><b>更多项目 · More projects (25)</b></summary>
 <br/>
 
-- [**dachuang-report**](https://github.com/handsomeZR-netizen/dachuang-report) — 大创结题报告写作 Skill — AI-assisted writing for innovation reports & defense materials
-- [**teacher-research-lab**](https://github.com/handsomeZR-netizen/teacher-research-lab) — 教师科研实验室 Web 原型 — cloud APIs & animated UI
-- [**nnu-innovation-training-platform**](https://github.com/handsomeZR-netizen/nnu-innovation-training-platform) — 创新训练项目平台 — deployment automation & image optimization
+**AI Skill 与科研工具**
+
+- [**niulai-paper-polish**](https://github.com/handsomeZR-netizen/niulai-paper-polish) — 牛来：顶会 / 顶刊终稿润色与证据守卫 Skill
+- [**academic-paper-polish-v3**](https://github.com/handsomeZR-netizen/academic-paper-polish-v3) — 论文诊断、故事重构与润色 Skill — evidence-aligned revision for Codex
+- [**llm-medical-evaluation-paper**](https://github.com/handsomeZR-netizen/llm-medical-evaluation-paper) — 把医学 LLM 对比变成可复核、可追溯的研究与论文
+- [**autodl-experiment-skill**](https://github.com/handsomeZR-netizen/autodl-experiment-skill) — 远程 GPU 实验托管 Skill — AutoDL runs with email progress alerts
+- [**nnu-gpu-connection-skill**](https://github.com/handsomeZR-netizen/nnu-gpu-connection-skill) — 南师大校园 GPU 连接 Skill — Claude Code & Codex CLI
+- [**dachuang-report**](https://github.com/handsomeZR-netizen/dachuang-report) — 大创结题报告写作 Skill — innovation reports & defense materials
+- [**claude-code-style-skill**](https://github.com/handsomeZR-netizen/claude-code-style-skill) — 让 Codex 说话像 Claude Code：简洁、如实、守工具纪律
+- [**fastxebench**](https://github.com/handsomeZR-netizen/fastxebench) — XeLaTeX 编译延迟基准 — reproducible benchmark with paper artifacts
+- [**mcm2026**](https://github.com/handsomeZR-netizen/mcm2026) — 数学建模工作区 — analysis, drafting, visualization
 - [**nnu-deeplearning-lcm-lora-benchmark**](https://github.com/handsomeZR-netizen/nnu-deeplearning-lcm-lora-benchmark) — LCM-LoRA 图像生成基准 — FID / LPIPS evaluation
-- [**mcm2026**](https://github.com/handsomeZR-netizen/mcm2026) — 数学建模工作区 — analysis, drafting, visualization, reproducible notes
-- [**fastxebench**](https://github.com/handsomeZR-netizen/fastxebench) — XeLaTeX 编译延迟基准 — reproducible edit-to-PDF latency benchmark with paper artifacts
+
+**工程、创意与课程项目**
+
+- [**gpu-watcher**](https://github.com/handsomeZR-netizen/gpu-watcher) — SSH 盯远程 GPU，空出来立刻发邮件
+- [**WeMP-Keeper**](https://github.com/handsomeZR-netizen/WeMP-Keeper) — 一条命令把公众号历史文章归档为 HTML + PDF + Excel
+- [**smartshower-controller**](https://github.com/handsomeZR-netizen/smartshower-controller) — 校园热水 BLE/GATT 控制系统 — Python + Tkinter, audit logs
+- [**lumen-light-lab**](https://github.com/handsomeZR-netizen/lumen-light-lab) — 光，也有触感 — zero-dependency WebGL2 light experiment
+- [**personal-markdown-online**](https://github.com/handsomeZR-netizen/personal-markdown-online) — AI Markdown 知识库 — Next.js 15, DeepSeek tagging, Postgres
+- [**probemate-web**](https://github.com/handsomeZR-netizen/probemate-web) — 课堂诊断门控原型 — ProbeMate Web v1.0.0
+- [**birdclef-voice-recognition-system**](https://github.com/handsomeZR-netizen/birdclef-voice-recognition-system) — BirdCLEF 2026 鸟鸣识别 — MFCC, CNN/CRNN, Gradio demo
+- [**nnu-nlp-gsm8k-coursework-2026**](https://github.com/handsomeZR-netizen/nnu-nlp-gsm8k-coursework-2026) — GSM8K 数学问答 — Seq2Seq, Transformer & LLMs
 - [**electrical-lab-core-algorithm**](https://github.com/handsomeZR-netizen/electrical-lab-core-algorithm) — zirui 的电路核心算法库 — MNA solver & diagnostics
+- [**teacher-research-lab**](https://github.com/handsomeZR-netizen/teacher-research-lab) — 教师科研实验室 Web 原型 — cloud APIs & animated UI
+- [**nnu-innovation-training-platform**](https://github.com/handsomeZR-netizen/nnu-innovation-training-platform) — 创新训练项目平台 — deployment automation
 - [**gesture-lenet-showcase**](https://github.com/handsomeZR-netizen/gesture-lenet-showcase) — 手势控制电脑 — MediaPipe + OpenCV
 - [**ecommerce-product-pages**](https://github.com/handsomeZR-netizen/ecommerce-product-pages) — 高性能商品页 — React, Zustand & Tailwind
-- [**Localized-Resume-Editor**](https://github.com/handsomeZR-netizen/Localized-Resume-Editor) — 隐私优先的本地简历编辑器 — no login, WYSIWYG, exports HTML
+- [**Localized-Resume-Editor**](https://github.com/handsomeZR-netizen/Localized-Resume-Editor) — 隐私优先的本地简历编辑器 — no login, exports HTML
 - [**koa-persistent-todo-api**](https://github.com/handsomeZR-netizen/koa-persistent-todo-api) — 持久化 Todo API — Koa, Swagger, Docker, GitHub Actions
+
 
 </details>
 
 <div align="center">
 
-<img src="assets/inventory-dark.svg" width="100%" alt="Tech stack: 语言: TypeScript, Python, JavaScript, HTML/CSS, SQL, LaTeX; 前端: React, Next.js, Vite, Tailwind, Zustand; 后端: Node.js, Bun, Hono, Koa, Prisma, PostgreSQL, SQLite; 智能: PyTorch, OpenCV, MediaPipe, TensorFlow.js, DeepSeek, PPO, LCM-LoRA; 工具链: MCP, Codex, Cursor, Docker, GitHub Actions, Vercel, Linux, Git">
+<img src="assets/inventory-dark.svg" width="100%" alt="Tech stack: 语言: TypeScript, Python, JavaScript, C++, HTML/CSS, SQL, LaTeX; 前端: React, Next.js, Vite, Tailwind, Zustand; 后端: Node.js, Bun, Hono, FastAPI, Koa, Prisma, PostgreSQL, SQLite; 智能: PyTorch, OpenCV, YOLOv8, MediaPipe, TensorFlow.js, DeepSeek, PPO, LCM-LoRA; 工具链: Claude Code, Codex, MCP, Cursor, Docker, GitHub Actions, Vercel, Linux, Git">
 
-<img src="assets/achievements-dark.svg" width="100%" alt="Achievements: Trae on Campus 一等奖 (南京大学站 · 手势切水果); 最受欢迎的 Skill (mathmodel-skill · 290+ ★); 184 项测试全通过 (retraction-watch-mcp); v1.0.0 正式发布 (eldercare-monitor); 学报 LaTeX 模板 (jcip-latex-template); 50+ 个开源仓库 (教育 · 科研 · AI 工具)">
+<img src="assets/achievements-dark.svg" width="100%" alt="Achievements: Trae on Campus 一等奖 (南京大学站 · 手势切水果); 最受欢迎的 Skill (mathmodel-skill · 290+ ★); 184 项测试全通过 (retraction-watch-mcp); v1.0.0 正式发布 (eldercare-monitor); Star 破 500 (5 个 Skill 各获 40+ Star); 50+ 个开源仓库 (教育 · 科研 · AI 工具)">
 
 <img src="assets/savedata-dark.svg" width="100%" alt="Save data">
 
