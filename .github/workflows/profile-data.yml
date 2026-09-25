@@ -25,6 +25,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # runs before the snake: snk writes dist/ from a root-owned Docker container
+      - name: Generate pixel save-data card
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/stats.py --user "${{ github.repository_owner }}" --out dist
+
       - name: Generate contribution snakes
         uses: Platane/snk@v3
         with:
@@ -34,12 +41,6 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#8B5CF6&color_dots=#1f2937,#7C3AED,#A855F7,#C084FC,#E9D5FF
             dist/snake-pixel-light.svg?color_snake=#E88E74&color_dots=#F1EAF3,#E2D2EE,#C8B2E6,#A68DD7,#7E66BF
             dist/snake-pixel-dark.svg?palette=github-dark&color_snake=#FFD49A&color_dots=#1E1A38,#3B2F70,#5E47A8,#8C6FE0,#C4B0F6
-
-      - name: Generate pixel save-data card
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 tools/stats.py --user "${{ github.repository_owner }}" --out dist
 
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v4
