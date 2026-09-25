@@ -17,7 +17,7 @@ cp versions/v2-macaron/assets/*.svg assets/
 git add -A && git commit -m "rollback: v2 macaron homepage" && git push
 ```
 
-**方式 B：用 git 历史**
+**方式 B：用 git 历史**（注意：`7e83b46` 里的旧版还带着真名，用方式 A 更好）
 
 ```bash
 git checkout 7e83b46 -- README.md assets

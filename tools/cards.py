@@ -37,7 +37,8 @@ def _pal(th):
 
 def dialog(th, prof):
     dlg = prof["dialog"]
-    h = 256
+    n_lines = len(dlg["lines"]) + 1
+    h = max(256, 22 + 58 + (n_lines - 1) * 36 + 8 + 24)
     d = Doc(WIDE, h, "Ziray says hello", " / ".join(dlg["lines"] + [dlg["seeking"]]))
     fill, ink = th["pink"]
     light = th["name"] == "light"

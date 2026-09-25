@@ -115,11 +115,12 @@ def ridge(x):
     return h
 
 
-def hero(theme):
+def hero(theme, prof):
     t = theme["name"]
     c = SCENE[t]
     rnd = random.Random(7)
-    d = Doc(W, H, "Ziray Xu 徐子锐 — AI-native builder, Nanjing",
+    pl = prof["player"]
+    d = Doc(W, H, f"{pl['name'].title()} — AI-native builder, Nanjing",
             "Pixel-art title screen: a cat codes on the Nanjing city wall "
             + ("under a pastel day sky." if t == "light" else "under the night sky."))
     d.defs.append(f'<clipPath id="scr"><path d="{rounded(0, 0, FW, FH, P)}"/></clipPath>')
@@ -406,9 +407,9 @@ def hero(theme):
 
     # ---- title text
     arcade = font("arcade-8px")
-    s = 6
-    cells, w = arcade.pixels("ZIRAY XU")
-    x0, base_y = 48, 110
+    s = 7
+    cells, w = arcade.pixels(pl["name"])
+    x0, base_y = 48, 104
     outline = dilate(cells, 1)
     d.add(f'<path fill="{c["logo_shadow"]}" d="{cells_path(shift(outline, 1, 1), s, x0, base_y)}"/>')
     d.add(f'<path fill="{c["logo_line"]}" d="{cells_path(outline, s, x0, base_y)}"/>')
@@ -416,17 +417,23 @@ def hero(theme):
     d.add(f'<path fill="{c["logo_top"]}" d="{cells_path(top_half, s, x0, base_y)}"/>')
     d.add(f'<path fill="{c["logo_bot"]}" d="{cells_path(cells - top_half, s, x0, base_y)}"/>')
 
+    # role, outlined so it reads over the sky
+    rc, rw = arcade.pixels(pl["title"])
+    rx, ry = 51, 150
+    d.add(f'<path fill="{c["zh_line"]}" d="{cells_path(dilate(rc, 1) - rc, 3, rx, ry)}"/>')
+    d.add(f'<path fill="{c["accent"]}" d="{cells_path(rc, 3, rx, ry)}"/>')
+    # school line
     zh = font("pixel-12px")
-    zc, zw = zh.pixels("徐子锐")
-    zx, zy = 52, 168
-    d.add(f'<path fill="{c["zh_line"]}" d="{cells_path(dilate(zc, 1) - zc, 3, zx, zy)}"/>')
-    d.add(f'<path fill="{c["zh"]}" d="{cells_path(zc, 3, zx, zy)}"/>')
-    d.text("arcade-8px", "AI-NATIVE BUILDER", zx + zw * 3 + 20, zy - 4, c["accent"], s=2)
+    sc, sw = zh.pixels(pl["school"])
+    if sw * 2 > 470:
+        raise ValueError(f"player.school is too wide for the title screen: {pl['school']}")
+    d.add(f'<path fill="{c["zh_line"]}" d="{cells_path(dilate(sc, 1) - sc, 2, 54, 180)}"/>')
+    d.add(f'<path fill="{c["zh"]}" d="{cells_path(sc, 2, 54, 180)}"/>')
 
-    d.text("arcade-8px", "PRESS START", 84, 206, c["start"], s=2, cls="blinkt")
-    d.text("pixel-12px", "▶", 54, 208, c["start"], s=2, cls="blinkt")
+    d.text("arcade-8px", "PRESS START", 84, 208, c["start"], s=2, cls="blinkt")
+    d.text("pixel-12px", "▶", 54, 210, c["start"], s=2, cls="blinkt")
     d.css.append("@keyframes bt{0%,55%{opacity:1}56%,100%{opacity:0}}.blinkt{animation:bt 1.2s steps(1) infinite}")
 
-    d.text("tiny-5px", "PLAYER 1  ZIRAY", 24, 30, c["hud"], s=2)
+    d.text("tiny-5px", f"PLAYER 1  {pl['name']}", 24, 30, c["hud"], s=2)
     d.text("tiny-5px", "NANJING  32.06N 118.79E", FW - 24, 30, c["hud"], s=2, anchor="end")
     return d.render()

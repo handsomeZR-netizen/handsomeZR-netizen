@@ -1,4 +1,4 @@
-<svg width="880" height="256" viewBox="0 0 880 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ziray Xu 徐子锐 — AI-native developer at Nanjing Normal University">
+<svg width="880" height="256" viewBox="0 0 880 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ziray — AI-native developer at Nanjing Normal University">
   <defs>
     <clipPath id="card"><rect width="880" height="256" rx="22"/></clipPath>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
@@ -55,8 +55,7 @@
 
     <!-- type -->
     <text x="58" y="78" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4.5" fill="#7D8BBE" font-weight="bold">AI · EDTECH · RESEARCH TOOLING · FRONTEND</text>
-    <text x="56" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#3B3650">Ziray Xu</text>
-    <text x="312" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#8D7AAE">徐子锐</text>
+    <text x="56" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#3B3650">Ziray</text>
     <text x="58" y="174" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#5B566E">Building gentle, reproducible tools for classrooms and research labs.</text>
 
     <rect x="58" y="194" width="260" height="4" rx="2" fill="url(#rule)"/>

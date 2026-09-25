@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Ziray Xu 徐子锐 — AI-native developer, Nanjing Normal University" />
+<img src="assets/hero.svg" width="100%" alt="Ziray — AI-native developer, Nanjing Normal University" />
 
 <br/><br/>
 

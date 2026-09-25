@@ -232,6 +232,17 @@ ICONS = {
         "wwwwwwwww",
         "wwwwwwwww",
     ],
+    "sigma": [
+        "aaaaaaa",
+        "aa.....",
+        ".aa....",
+        "..aa...",
+        "...aa..",
+        "..aa...",
+        ".aa....",
+        "aa.....",
+        "aaaaaaa",
+    ],
     "mail": [
         "wwwwwwwww",
         "wkwwwwwkw",

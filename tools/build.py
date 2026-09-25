@@ -54,7 +54,7 @@ def build_assets(prof):
     out = {}
     for th in THEMES:
         t = th["name"]
-        out[f"hero-{t}"] = hero(th)
+        out[f"hero-{t}"] = hero(th, prof)
         out[f"dialog-{t}"] = cards.dialog(th, prof)
         out[f"status-{t}"] = cards.status(th, prof)
         out[f"quests-{t}"] = cards.header(th, "QUEST LOG", "任务日志",
@@ -91,7 +91,7 @@ def readme(prof):
         "",
         '<div align="center">',
         "",
-        pic("hero", f"{pl['name']} {pl['name_zh']} — AI-native builder · Nanjing"),
+        pic("hero", f"{pl['name'].title()} — AI-native builder · {pl['school']} · Nanjing"),
         "",
         pic("dialog", " ".join(prof["dialog"]["lines"]) + " " + prof["dialog"]["seeking"]),
         "",

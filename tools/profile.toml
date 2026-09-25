@@ -3,8 +3,9 @@
 # 文字宽度超出卡片时 build.py 会直接报错并告诉你是哪一行，不会悄悄溢出。
 
 [player]
-name = "ZIRAY XU"
-name_zh = "徐子锐"
+name = "ZIRAY"
+# 标题画面里的学校一行
+school = "本科 南师大 · 硕士 南航"
 title = "AI-NATIVE BUILDER"
 github = "handsomeZR-netizen"
 email = "1516924835@qq.com"
@@ -13,9 +14,10 @@ motto = "REPRODUCIBLE · DOCUMENTED · SHIPPABLE"
 theme = "dark"
 
 [dialog]
-speaker = "ZIRAY · 徐子锐"
+speaker = "ZIRAY"
 lines = [
-  "嗨！我是徐子锐，南京师范大学人工智能专业本科生。",
+  "嗨！我是 Ziray，一名 AI 原生开发者。",
+  "本科 南京师范大学 · 人工智能，硕士 南京航空航天大学",
   "我用 AI 做教育科技与科研工具，让想法落地成产品。",
   "信条：AI 是引擎，方向盘始终在我手里。",
   "Hi! I build AI-native tools for classrooms & labs.",
@@ -53,7 +55,7 @@ icon = "window"
 [[ability]]
 code = "SCI"
 name = "科研工具"
-keywords = "LaTeX · 基准测试 · 学术绘图 · 可复现"
+keywords = "数学建模 · LaTeX · 基准测试 · 学术绘图"
 level = 8
 color = "teal"
 icon = "flask"
@@ -75,6 +77,16 @@ color = "peach"
 icon = "rocket"
 
 # 任务日志：kind = main（主线，进行中）或 side（支线，已通关）
+[[quest]]
+kind = "main"
+repo = "mathmodel-skill"
+zh = "数学建模竞赛 Agent 工作流"
+desc = "10-stage agent workflow for CUMCM, MCM/ICM & Diangong Cup."
+tags = ["Python", "Claude Code", "Codex"]
+skills = ["AGT", "SCI"]
+reward = "290+ Star · 我的最高星"
+icon = "sigma"
+
 [[quest]]
 kind = "main"
 repo = "eldercare-monitor"
@@ -102,17 +114,16 @@ zh = "琢玉工坊 · 学生项目交付 Skill"
 desc = "Turns coursework & 大创 files into defendable deliverables."
 tags = ["Codex Skill", "Markdown"]
 skills = ["AGT", "LLM"]
-reward = "最受欢迎的 Skill"
+reward = "50+ ★"
 icon = "gem"
 
 [[quest]]
-kind = "main"
+kind = "side"
 repo = "autodl-experiment-skill"
 zh = "远程 GPU 实验托管 Skill"
-desc = "Runs AutoDL GPU jobs end-to-end with email progress alerts."
+desc = "AutoDL GPU jobs + email alerts"
 tags = ["Python", "AutoDL", "GPU"]
 skills = ["AGT", "OPS"]
-reward = "一键远程训练"
 icon = "bolt"
 
 [[quest]]
@@ -181,15 +192,6 @@ skills = ["WEB", "LLM"]
 reward = "高星仓库"
 icon = "note"
 
-[[quest]]
-kind = "side"
-repo = "fastxebench"
-zh = "XeLaTeX 编译延迟基准"
-desc = "Edit-to-PDF latency benchmark"
-tags = ["Python", "LaTeX"]
-skills = ["SCI", "OPS"]
-icon = "clock"
-
 # 折叠区「更多支线」（纯文字，写在 README 里）
 [[more]]
 repo = "dachuang-report"
@@ -210,6 +212,10 @@ desc = "LCM-LoRA 图像生成基准 — FID / LPIPS evaluation"
 [[more]]
 repo = "mcm2026"
 desc = "数学建模工作区 — analysis, drafting, visualization, reproducible notes"
+
+[[more]]
+repo = "fastxebench"
+desc = "XeLaTeX 编译延迟基准 — reproducible edit-to-PDF latency benchmark with paper artifacts"
 
 [[more]]
 repo = "electrical-lab-core-algorithm"
@@ -270,7 +276,7 @@ sub = "南京大学站 · 手势切水果"
 [[achievement]]
 icon = "star"
 title = "最受欢迎的 Skill"
-sub = "zhuoyu-workshop-skill"
+sub = "mathmodel-skill · 290+ ★"
 
 [[achievement]]
 icon = "check"
