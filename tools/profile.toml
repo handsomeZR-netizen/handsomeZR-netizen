@@ -114,7 +114,7 @@ zh = "琢玉工坊 · 学生项目交付 Skill"
 desc = "Turns coursework & 大创 files into defendable deliverables."
 tags = ["Codex Skill", "Markdown"]
 skills = ["AGT", "LLM"]
-reward = "50+ ★"
+reward = "50+ Star"
 icon = "gem"
 
 [[quest]]
