@@ -50,7 +50,7 @@
 
 <img src="assets/inventory-dark.svg" width="100%" alt="Tech stack: 语言: TypeScript, Python, JavaScript, HTML/CSS, SQL, LaTeX; 前端: React, Next.js, Vite, Tailwind, Zustand; 后端: Node.js, Bun, Hono, Koa, Prisma, PostgreSQL, SQLite; 智能: PyTorch, OpenCV, MediaPipe, TensorFlow.js, DeepSeek, PPO, LCM-LoRA; 工具链: MCP, Codex, Cursor, Docker, GitHub Actions, Vercel, Linux, Git">
 
-<img src="assets/achievements-dark.svg" width="100%" alt="Achievements: Trae on Campus 一等奖 (南京大学站 · 手势切水果); 最受欢迎的 Skill (zhuoyu-workshop-skill); 184 项测试全通过 (retraction-watch-mcp); v1.0.0 正式发布 (eldercare-monitor); 学报 LaTeX 模板 (jcip-latex-template); 30+ 个开源仓库 (教育 · 科研 · AI 工具)">
+<img src="assets/achievements-dark.svg" width="100%" alt="Achievements: Trae on Campus 一等奖 (南京大学站 · 手势切水果); 最受欢迎的 Skill (zhuoyu-workshop-skill); 184 项测试全通过 (retraction-watch-mcp); v1.0.0 正式发布 (eldercare-monitor); 学报 LaTeX 模板 (jcip-latex-template); 50+ 个开源仓库 (教育 · 科研 · AI 工具)">
 
 <img src="assets/savedata-dark.svg" width="100%" alt="Save data">
 
