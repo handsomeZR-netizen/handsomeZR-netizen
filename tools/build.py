@@ -32,11 +32,17 @@ def esc(s):
     return s.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+THEME = "dark"   # set from profile.toml [player] theme: "dark" | "light" | "auto"
+
+
 def pic(name, alt, width="100%", extra="", base="assets"):
     size = f' width="{width}"' if width else ""
+    img = f'<img src="{base}/{name}-{{}}.svg"{size} alt="{esc(alt)}"{extra}>'
+    if THEME in ("dark", "light"):
+        return img.format(THEME)
     return (
         f'<picture><source media="(prefers-color-scheme: dark)" srcset="{base}/{name}-dark.svg">'
-        f'<img src="{base}/{name}-light.svg"{size} alt="{esc(alt)}"{extra}></picture>'
+        + img.format("light") + "</picture>"
     )
 
 
@@ -146,7 +152,9 @@ def readme(prof):
 
 
 def main():
+    global THEME
     prof = load()
+    THEME = prof["player"].get("theme", "dark")
     out = build_assets(prof)
     readme(prof)
     size = sum(len(s.encode()) for s in out.values())

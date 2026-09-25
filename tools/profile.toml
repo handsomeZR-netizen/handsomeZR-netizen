@@ -9,6 +9,8 @@ title = "AI-NATIVE BUILDER"
 github = "handsomeZR-netizen"
 email = "1516924835@qq.com"
 motto = "REPRODUCIBLE · DOCUMENTED · SHIPPABLE"
+# 主页配色：dark = 始终夜晚版，light = 始终白天版，auto = 跟随访客系统深浅色
+theme = "dark"
 
 [dialog]
 speaker = "ZIRAY · 徐子锐"
